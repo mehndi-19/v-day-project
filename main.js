@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const yesButton = document.querySelector(".choice-box button:first-child");
     const noButton = document.querySelector(".choice-box button:last-child");
 
-    let partnerName = "AVIRAL";
+    let partnerName = "ANANYA";
     let noClickCount = 0; // Counter for No button clicks
 
     // Function to create typewriter effect
@@ -102,4 +102,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     clickButton.addEventListener("click", revealChoices);
+
 });
